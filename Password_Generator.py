@@ -5,7 +5,7 @@ numbers = '1234567890'
 symbols = '!@#$%^&*)(_-=+";:.,?'
 all = list(lower_alphabet + upper_alphabet + numbers + symbols)
 random.shuffle(all)
-def password_generator(length):
+def generate(length):
     password = []
     for i in range(length):
         password.append(random.choice(all))
