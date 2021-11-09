@@ -5,6 +5,6 @@ This is the simplest password generator. Just mention the length and done you go
 Put this file in the same file as your project and type : 
 ```
 import password_generator
-generate(length)
+password_generator.generate(length)
 ```
 use input or anything to defind length
